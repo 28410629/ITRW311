@@ -1,1 +1,3 @@
-database-assignment3
+Create empty connection with name ANCHORMEN and:
+username: BATMAN 
+password: itrw311
