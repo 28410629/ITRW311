@@ -132,8 +132,7 @@ DROP SEQUENCE STATION_SEQ;
 	"USERNAME" VARCHAR2(55 BYTE),
 	"PASSWORD" VARCHAR2(55 BYTE),
 	"ACTIVE_USER" NUMBER(1,0) DEFAULT 1 --1 yes, 0 no
-   ) SEGMENT CREATION IMMEDIATE
-  ;
+   ) SEGMENT CREATION IMMEDIATE;
 --------------------------------------------------------
 --  Table REPAIRLOG
 --------------------------------------------------------
@@ -607,3 +606,25 @@ ALTER TRIGGER "STATION_TRG" ENABLE;
 
   ALTER TABLE "TECHNICIAN" ADD CONSTRAINT "EMPL_ISA_TECH" FOREIGN KEY ("PERSONID", "POSITIONTYPE")
 	  REFERENCES "EMPLOYEE" ("PERSONID", "POSITIONTYPE") ENABLE;
+
+
+
+--------------------------------------------------------
+--  Views
+--------------------------------------------------------
+  CREATE OR REPLACE VIEW get_all_employees AS
+  SELECT idnumber, firstname, lastname, phonenumber, email, username, positiontitle, vatnumber
+  FROM person p join employee e
+  ON (p.personid = e.personid)
+  AND p.active_user = 1;
+
+--------------------------------------------------------
+
+  CREATE OR REPLACE VIEW get_all_customers AS
+  SELECT p.idnumber, p.firstname, p.lastname, p.phonenumber, p.email, p.username, s.name
+  FROM person p JOIN customer c
+  ON (p.personid = c.personid)
+  JOIN subscription s
+  ON (c.subscription_type=s.subscription_type)
+  WHERE p.active_user = 1;
+--------------------------------------------------------
