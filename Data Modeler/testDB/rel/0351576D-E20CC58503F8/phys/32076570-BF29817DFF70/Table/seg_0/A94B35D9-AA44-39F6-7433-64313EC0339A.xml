@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOCATION" directorySegmentName="seg_0" id="A94B35D9-AA44-39F6-7433-64313EC0339A">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:16 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C5EA09C-A4B1-EEE8-DA84-D88308EAF0C5</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROVINCE" id="198345D9-8C2B-4955-A78A-75D3D07D50A4">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATIONID" id="20E6DCFD-2E1D-A21E-0F3E-41BF2A5B6C78">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="LOCATIONNAME" id="9F4F77FA-3A91-C7C5-7733-D97FA8296B6E">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UNIQ_NAME" id="724063D7-CAD7-1B89-F4C6-7525EF436CA6">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOCATION_PK" id="7FD4FE04-23C0-29D2-1BBD-436364E8479F">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOCATION_PK" id="4443E2E2-0CA8-9067-DE6A-4A61B550F38F">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<existingIndex>7FD4FE04-23C0-29D2-1BBD-436364E8479F</existingIndex>
+<indexSegment>2E11D71D-0296-D79C-BECE-677D78688FBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNIQ_NAME" id="7D284A7B-ACB5-EE57-9D48-1EC5D2838C56">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<existingIndex>724063D7-CAD7-1B89-F4C6-7525EF436CA6</existingIndex>
+<indexSegment>2E11D71D-0296-D79C-BECE-677D78688FBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

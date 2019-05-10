@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUBSCRIPTION" directorySegmentName="seg_0" id="E29D1395-4FBD-8A4C-510D-93E23B593CE1">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C5EA09C-A4B1-EEE8-DA84-D88308EAF0C5</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="38E5EE97-BE1C-CE7D-810F-981F6DB6FE96">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSCRIPTION_TYPE" id="5C371A59-23B5-92DC-955A-0F8716CE22A4">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERVAL_TIME" id="DC7839EA-EB21-247D-E853-49A40166AB20">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTHLY_PRICE" id="F33342B5-91CA-754F-1F27-C2C6BE57EE94">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUBSCRIPTION_PK" id="75F6B7CA-9AE4-8DB0-4FFF-64FFD64F40DF">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUBSCRIPTION_PK" id="8EAF7C41-BB92-CC18-4784-EC7B26A2A121">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<existingIndex>75F6B7CA-9AE4-8DB0-4FFF-64FFD64F40DF</existingIndex>
+<indexSegment>2E11D71D-0296-D79C-BECE-677D78688FBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REPAIRLOG" directorySegmentName="seg_0" id="FF0FD0A3-6303-AD50-0692-C4DFE397E006">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C5EA09C-A4B1-EEE8-DA84-D88308EAF0C5</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPTION" id="511FABC8-1C01-9BD5-A8CD-D480EE873FFC">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONID" id="A2A6BFDD-1DFD-F3A5-656D-3F61619D0D1A">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_OF" id="A39FB91C-5A40-99A1-49B9-A06E478DD02F">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPAIRID" id="DEFAA160-7D6D-57D7-6C81-17A9B2E771C5">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="STATIONID" id="F86C1F61-8587-B817-C0F5-4F9979FE3D07">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REPAIRLOG_PK" id="31870748-939A-68F6-6F5A-C06472EF5274">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPAIR_FK_STATION" id="2E13E936-79DD-8FF3-64FE-21B783F15B82">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPAIR_FK_TECH" id="3E17F127-1B23-ADFA-49F4-CE376A4C899B">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REPAIRLOG_PK" id="8AEEF1F1-C52C-DA3E-6044-5E447A464617">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<existingIndex>31870748-939A-68F6-6F5A-C06472EF5274</existingIndex>
+<indexSegment>2E11D71D-0296-D79C-BECE-677D78688FBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

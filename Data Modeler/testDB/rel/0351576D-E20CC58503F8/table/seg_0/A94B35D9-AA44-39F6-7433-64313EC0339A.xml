@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A94B35D9-AA44-39F6-7433-64313EC0339A" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="LOCATION">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:16 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATIONID" id="20E6DCFD-2E1D-A21E-0F3E-41BF2A5B6C78">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>LOCATIONID</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>LOCATION_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>LOCATION_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="LOCATIONNAME" id="9F4F77FA-3A91-C7C5-7733-D97FA8296B6E">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>LOCATIONNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCE" id="198345D9-8C2B-4955-A78A-75D3D07D50A4">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>LOCATION</sourceObjSchema>
+<sourceObjName>PROVINCE</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4443E2E2-0CA8-9067-DE6A-4A61B550F38F" name="LOCATION_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>LOCATION_PK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E6DCFD-2E1D-A21E-0F3E-41BF2A5B6C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D284A7B-ACB5-EE57-9D48-1EC5D2838C56" name="UNIQ_NAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_NAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F4F77FA-3A91-C7C5-7733-D97FA8296B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FD4FE04-23C0-29D2-1BBD-436364E8479F" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="LOCATION_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>LOCATION_PK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E6DCFD-2E1D-A21E-0F3E-41BF2A5B6C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="724063D7-CAD7-1B89-F4C6-7525EF436CA6" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="UNIQ_NAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_NAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F4F77FA-3A91-C7C5-7733-D97FA8296B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

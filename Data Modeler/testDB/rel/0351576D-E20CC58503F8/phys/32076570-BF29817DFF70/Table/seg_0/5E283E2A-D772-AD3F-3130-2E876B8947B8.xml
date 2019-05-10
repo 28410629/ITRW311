@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="5E283E2A-D772-AD3F-3130-2E876B8947B8">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:16 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C5EA09C-A4B1-EEE8-DA84-D88308EAF0C5</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSONTYPE" id="080FCA64-B7FC-7235-17FC-0CD88E5222AB">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<defaultValue>&apos;C&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PERSONID" id="379024EA-EA8E-C6F4-DD2F-9513B0BCC13E">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBSCRIPTION_TYPE" id="6F4E68C5-D96D-45A4-BB09-6A56BFEA2BE7">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CUSTOMER_PK" id="C750CE59-AAB3-A22C-5683-570693E1363E">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>7BD84639-7F44-33B0-BD6B-834F19D7191E</schemaObject>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUST_ISA_PERSON" id="3BBCB098-9E88-8FA7-42AF-034D30AE1D53">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUSTOMER_FK" id="A5BED2A3-20F3-CF27-7A38-2AA6A8D53633">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="826CBD90-C4EE-BB29-93A0-517C96EC981B">
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>2E11D71D-0296-D79C-BECE-677D78688FBF</segment>
+<tableSpace>BD3D6BB4-F33E-2E00-8F70-F74709C8A4A5</tableSpace>
+<existingIndex>C750CE59-AAB3-A22C-5683-570693E1363E</existingIndex>
+<indexSegment>2E11D71D-0296-D79C-BECE-677D78688FBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,307 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AB53CAA-E27F-C0A4-EC0D-222A6F9B0F20" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="PERSON">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:16 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONID" id="15000F10-16C7-A0F8-CBDB-13E2E8D1B281">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSONID</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PERSON_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PERSON_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="IDNUMBER" id="B519E785-1CB3-DD67-0760-5B4C928A6E7F">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IDNUMBER</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="6F6BCF8D-77CB-0D5A-EFDC-E13351551CFC">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="6741E861-384F-A888-D3B9-28BE790727AC">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONENUMBER" id="38908F63-4A35-2428-AE3E-E7A5290EDEFF">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHONENUMBER</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="CADFCE88-3681-16F0-7FAC-6E0083392886">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONTYPE" id="21E21E79-F4FE-9B1C-43D1-4D483566428A">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSONTYPE</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<constraintName>PERSON_CHECK_C_OR_E</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;E&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="5026DD3E-2C32-B11A-0D63-BD01571E9A39">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="BF2F2FEB-7284-525E-3B12-9F476BB75137">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE_USER" id="CB3AD91E-849A-85C3-E144-B33072A842B0">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>ACTIVE_USER</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1 --1 yes, 0 no</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F797779F-950D-2351-454F-E0747C0CEA38" name="PERSON_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON_PK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15000F10-16C7-A0F8-CBDB-13E2E8D1B281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A44BBF7-955C-9D14-CE23-853805C74C5D" name="EMAIL_UK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>EMAIL_UK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CADFCE88-3681-16F0-7FAC-6E0083392886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5192291-35F3-510B-D4E1-4AFC9247F27F" name="UNIQ_ID_NUM">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_ID_NUM</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B519E785-1CB3-DD67-0760-5B4C928A6E7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="396BFAEB-E195-3216-260B-823FA835E1F8" name="UNIQ_PERSON_TYPE">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_PERSON_TYPE</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15000F10-16C7-A0F8-CBDB-13E2E8D1B281"/>
+<colUsage columnID="21E21E79-F4FE-9B1C-43D1-4D483566428A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C219784-FB08-D21A-BC53-A8048A956762" name="UNIQ_USERNAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_USERNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5026DD3E-2C32-B11A-0D63-BD01571E9A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFCB3BF8-B42C-5DB8-DB54-1D91F5B1BC75" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="EMAIL_UK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>EMAIL_UK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CADFCE88-3681-16F0-7FAC-6E0083392886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="201DEFD6-1590-134B-E5B5-2B4824EA2527" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="PERSON_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON_PK</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15000F10-16C7-A0F8-CBDB-13E2E8D1B281"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5682283B-0A4A-FF65-875B-12225ABA56FB" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="UNIQ_ID_NUM">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_ID_NUM</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B519E785-1CB3-DD67-0760-5B4C928A6E7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A11CD8B-9C90-D29A-DF2A-5BC00261A08A" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="UNIQ_PERSON_TYPE">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_PERSON_TYPE</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15000F10-16C7-A0F8-CBDB-13E2E8D1B281"/>
+<colUsage columnID="21E21E79-F4FE-9B1C-43D1-4D483566428A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E48CE8A4-626C-5AB2-D806-647585BAA754" schemaObject="7BD84639-7F44-33B0-BD6B-834F19D7191E" name="UNIQ_USERNAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_USERNAME</sourceObjName>
+<createdBy>Coenraad</createdBy>
+<createdTime>2019-05-10 05:00:17 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5026DD3E-2C32-B11A-0D63-BD01571E9A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
