@@ -612,6 +612,7 @@ ALTER TRIGGER "STATION_TRG" ENABLE;
 --------------------------------------------------------
 --  Views
 --------------------------------------------------------
+
   CREATE OR REPLACE VIEW get_all_employees AS
   SELECT p.idnumber, p.firstname, p.lastname, p.phonenumber, p.email, p.username, e.positiontitle, e.vatnumber
   FROM person p JOIN employee e
@@ -627,7 +628,9 @@ ALTER TRIGGER "STATION_TRG" ENABLE;
   JOIN subscription s
   ON (c.subscription_type=s.subscription_type)
   WHERE p.active_user = 1;
+
 --------------------------------------------------------
+
   CREATE OR REPLACE VIEW get_all_tech AS
   SELECT p.idnumber, p.firstname, p.lastname, p.phonenumber, p.email, p.username, e.positiontitle, e.vatnumber, t.hardware_yes, t.software_yes
   FROM person p JOIN employee e
@@ -635,4 +638,5 @@ ALTER TRIGGER "STATION_TRG" ENABLE;
   JOIN technician t
   ON (e.personid = t.personid)
   WHERE p.active_user = 1;
+
 --------------------------------------------------------
