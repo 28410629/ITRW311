@@ -76,7 +76,7 @@ DROP SEQUENCE STATION_SEQ;
 	"SUBSCRIPTION_TYPE" NUMBER(5,0),
 	"PERSONTYPE" CHAR(1 BYTE) DEFAULT 'C'
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table EMPLOYEE
 --------------------------------------------------------
@@ -89,7 +89,7 @@ DROP SEQUENCE STATION_SEQ;
 	"VATNUMBER" VARCHAR2(20 BYTE),
 	"PERSONTYPE" CHAR(1 BYTE) DEFAULT 'E'
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table FORECAST
 --------------------------------------------------------
@@ -104,7 +104,7 @@ DROP SEQUENCE STATION_SEQ;
 	"HUMIDITY" NUMBER(8,2),
 	"AMBIENT_LIGHT" NUMBER(8,2)
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table LOCATION
 --------------------------------------------------------
@@ -115,7 +115,7 @@ DROP SEQUENCE STATION_SEQ;
 	"LOCATIONNAME" VARCHAR2(25 BYTE),
 	"PROVINCE" VARCHAR2(25 BYTE)
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table PERSON
 --------------------------------------------------------
@@ -133,7 +133,7 @@ DROP SEQUENCE STATION_SEQ;
 	"PASSWORD" VARCHAR2(55 BYTE),
 	"ACTIVE_USER" NUMBER(1,0) DEFAULT 1 --1 yes, 0 no
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table REPAIRLOG
 --------------------------------------------------------
@@ -146,7 +146,7 @@ DROP SEQUENCE STATION_SEQ;
 	"DATE_OF" DATE,
 	"DESCRIPTION" VARCHAR2(255 BYTE)
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table SALARY
 --------------------------------------------------------
@@ -158,7 +158,7 @@ DROP SEQUENCE STATION_SEQ;
 	"AMOUNT" NUMBER(10,2),
 	"DATEPAID" DATE DEFAULT sysdate
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table STATION
 --------------------------------------------------------
@@ -171,7 +171,7 @@ DROP SEQUENCE STATION_SEQ;
 	"COORDINATES" VARCHAR2(255 BYTE),
 	"ISACTIVE" NUMBER(1,0) DEFAULT 1 --1 yes, 0 no
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table STATIONREADING
 --------------------------------------------------------
@@ -188,7 +188,7 @@ DROP SEQUENCE STATION_SEQ;
 	"HUMIDITY" NUMBER(8,2),
 	"ALTITUDE" NUMBER(8,2)
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table STATION_HIST
 --------------------------------------------------------
@@ -200,7 +200,7 @@ DROP SEQUENCE STATION_SEQ;
 	"COORDINATES" VARCHAR2(255 BYTE),
 	"STATIONID" NUMBER(6,0)
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table SUBSCRIPTION
 --------------------------------------------------------
@@ -212,7 +212,7 @@ DROP SEQUENCE STATION_SEQ;
 	"NAME" VARCHAR2(12 BYTE),
 	"INTERVAL_TIME" NUMBER(6,0) --interval of forecasts received
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Table TECHNICIAN
 --------------------------------------------------------
@@ -224,97 +224,97 @@ DROP SEQUENCE STATION_SEQ;
 	"SOFTWARE_YES" NUMBER(1,0), --1 yes, 0 no
   "POSITIONTYPE" CHAR(1 BYTE) DEFAULT 'T'
    ) SEGMENT CREATION IMMEDIATE
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index SALARY_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "SALARY_PK" ON "SALARY" ("SALARYID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index EMAIL_UK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "EMAIL_UK" ON "PERSON" ("EMAIL")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index CUSTOMER_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "CUSTOMER_PK" ON "CUSTOMER" ("PERSONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index SUBSCRIPTION_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "SUBSCRIPTION_PK" ON "SUBSCRIPTION" ("SUBSCRIPTION_TYPE")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index STATION_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "STATION_PK" ON "STATION" ("STATIONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index FORECAST_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "FORECAST_PK" ON "FORECAST" ("FORECAST_ID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index EMPLOYEE_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "EMPLOYEE_PK" ON "EMPLOYEE" ("PERSONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index PERSON_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "PERSON_PK" ON "PERSON" ("PERSONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index UNIQ_PERSON_TYPE
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "UNIQ_PERSON_TYPE" ON "PERSON" ("PERSONID", "PERSONTYPE")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index STATIONREADING_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "STATIONREADING_PK" ON "STATIONREADING" ("READING_ID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index LOCATION_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "LOCATION_PK" ON "LOCATION" ("LOCATIONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index TECHNICIAN_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "TECHNICIAN_PK" ON "TECHNICIAN" ("PERSONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index REPAIRLOG_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "REPAIRLOG_PK" ON "REPAIRLOG" ("REPAIRID", "PERSONID", "STATIONID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index STATION_HIST_PK
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "STATION_HIST_PK" ON "STATION_HIST" ("HIST_ID")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Index UNIQ_EMPL_TYPE
 --------------------------------------------------------
 
   CREATE UNIQUE INDEX "UNIQ_EMPL_TYPE" ON "EMPLOYEE" ("PERSONID", "POSITIONTYPE")
-  TABLESPACE "SYSTEM" ;
+  ;
 --------------------------------------------------------
 --  Trigger FORECAST_TRG
 --------------------------------------------------------
