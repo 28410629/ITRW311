@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STATION" directorySegmentName="seg_0" id="F1BC2732-7006-AF8E-3C66-2E7FC6A6A5FF">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B28AE6C7-A112-C288-51F0-C65519F73119</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="04B225DE-3807-8A59-F6BE-BC45AC239219">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATIONID" id="A5B2C186-DDB4-52F6-742C-083D361D6374">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COORDINATES" id="B8DAE05E-8172-BD1C-9346-2E0493653A98">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISACTIVE" id="BB8A6489-856B-F49F-52AB-E85DC3BFB660">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<defaultValue>1 --1 yes, 0 no</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STATIONID" id="C75C5BD7-86DC-9582-5D55-9D66DC361200">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STATION_PK" id="AFB9FB9F-4FFB-E862-B832-E25F16EDF181">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STATION_LOC_FK" id="64127D69-EBA3-C5AB-2B9E-06611C419CF0">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STATION_PK" id="F6EE59C6-7DF1-29A3-D96E-77FC5DF40F2F">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>AFB9FB9F-4FFB-E862-B832-E25F16EDF181</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

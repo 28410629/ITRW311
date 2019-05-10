@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REPAIRLOG" directorySegmentName="seg_0" id="19A10EE5-D826-88C4-23B9-4ECB7EA9E924">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B28AE6C7-A112-C288-51F0-C65519F73119</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSONID" id="6F7552F1-22DE-C6C0-1DBF-F4F658EECD1A">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPAIRID" id="7BB9389C-25A3-DF6C-9C1E-A492A60DA178">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DATE_OF" id="B4B283F1-7421-E6D6-8135-B076A4819787">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATIONID" id="D2FB1940-15FF-4FE8-7801-83DB74CE9EF8">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="EEBC2104-4299-DEE8-03FB-9F92124499A8">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REPAIRLOG_PK" id="371FFB48-19CD-E045-BF24-577675733F2A">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPAIR_FK_STATION" id="436BCA11-63D2-D3D6-5199-D79266E6C410">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPAIR_FK_TECH" id="7A85E195-5B7E-8BF5-A8CA-7E551F34B13B">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REPAIRLOG_PK" id="6AD4BEB3-DE75-A2C6-FEC7-8E70F661F9F6">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>371FFB48-19CD-E045-BF24-577675733F2A</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

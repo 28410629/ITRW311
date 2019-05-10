@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PERSON" directorySegmentName="seg_0" id="603CFCE5-0918-0823-6DA9-841261A48030">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B28AE6C7-A112-C288-51F0-C65519F73119</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACTIVE_USER" id="0C306BAA-7575-F793-9FD0-AEE4AE0FC931">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<defaultValue>1 --1 yes, 0 no</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="IDNUMBER" id="21582A9A-7F34-F38B-205E-A09E3641FC31">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRSTNAME" id="3390BD2A-0A99-EEE6-4FCD-12D2E52757E9">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="527CA123-F29D-24EF-F4DD-2B1FE5E2B10F">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONENUMBER" id="5AAC24D0-7DA7-D91C-6A42-D7FA61F99DD6">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONID" id="7A87AC59-29A6-7B4F-687C-973AB3989754">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="USERNAME" id="85141979-B9A7-ADC3-FEE4-0097E9B8113B">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LASTNAME" id="A5F3EC52-0292-7B07-3CCD-46EA495585FB">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="C19F0451-53C0-E0DB-CE88-50887D96A78E">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONTYPE" id="E274A62B-EF47-319A-D866-BBE49AD8B6D5">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMAIL_UK" id="4B8411D8-4D9C-DBC4-7831-744E4FAEB6D5">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UNIQ_ID_NUM" id="6E1E38CE-7DE2-61E8-6AF4-4A32C94D4FBC">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UNIQ_PERSON_TYPE" id="9DA2C027-9725-D45C-1B32-C98689643396">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERSON_PK" id="E74D7ACD-1C82-1D8F-DABE-115970E04547">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UNIQ_USERNAME" id="FB558316-5654-3D47-DC63-DD188648A379">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<schemaObject>06F01A99-A511-6603-9D38-8C774CE4E093</schemaObject>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSON_PK" id="BE6D08C7-7CA5-D782-CFCB-9583FC6DA0A2">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>E74D7ACD-1C82-1D8F-DABE-115970E04547</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNIQ_ID_NUM" id="0450F5B4-C8B5-67F6-3B52-5BD8EA2DE345">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>6E1E38CE-7DE2-61E8-6AF4-4A32C94D4FBC</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNIQ_USERNAME" id="17920B93-906C-02ED-33D3-CDC951F3D86A">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>FB558316-5654-3D47-DC63-DD188648A379</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMAIL_UK" id="55337BFB-A801-C0FE-8E5C-552A2D793602">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>4B8411D8-4D9C-DBC4-7831-744E4FAEB6D5</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNIQ_PERSON_TYPE" id="C65D5C37-5B4A-DF70-F9B3-A84522206B4B">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<segment>9F6B1C94-F925-41C6-409C-5430207B896B</segment>
+<tableSpace>577F16CB-4515-0AC8-9A34-547917F569D0</tableSpace>
+<existingIndex>9DA2C027-9725-D45C-1B32-C98689643396</existingIndex>
+<indexSegment>9F6B1C94-F925-41C6-409C-5430207B896B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

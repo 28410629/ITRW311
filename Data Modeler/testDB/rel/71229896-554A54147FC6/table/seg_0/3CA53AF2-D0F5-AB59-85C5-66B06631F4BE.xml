@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CA53AF2-D0F5-AB59-85C5-66B06631F4BE" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="STATION_HIST">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATION_HIST</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HIST_ID" id="65C9CBC8-752E-2E4F-4DF3-9DFB341A118C">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATION_HIST</sourceObjSchema>
+<sourceObjName>HIST_ID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>STATION_HIST_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>STATION_HIST_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="LOCATIONID" id="540661B6-FA71-312D-F582-19FA48F7B8F8">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATION_HIST</sourceObjSchema>
+<sourceObjName>LOCATIONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDINATES" id="E2B4B66F-04EB-62A8-7DB4-BDE0C3F72BC8">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATION_HIST</sourceObjSchema>
+<sourceObjName>COORDINATES</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATIONID" id="F8FE9DDB-3849-935B-3F0E-1005526B0ED9">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATION_HIST</sourceObjSchema>
+<sourceObjName>STATIONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD53005E-EFD3-D545-5EB8-2EEC21E58A36" referredColumn="C75C5BD7-86DC-9582-5D55-9D66DC361200"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C49A912E-1FC9-B86E-B93D-42A925C4B875" name="STATION_HIST_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATION_HIST_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C9CBC8-752E-2E4F-4DF3-9DFB341A118C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="228EAB93-1E2D-9D9B-4FCD-E63FB3545FC4" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="STATION_HIST_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATION_HIST_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C9CBC8-752E-2E4F-4DF3-9DFB341A118C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A973B3C2-A4B3-39CB-E205-A1E8BA6F1730" name="STATION_HIST_FK">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8FE9DDB-3849-935B-3F0E-1005526B0ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

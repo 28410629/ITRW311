@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86355209-B7B9-6D87-195F-97B432F062D3" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="SUBSCRIPTION">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SUBSCRIPTION</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBSCRIPTION_TYPE" id="F3624E4B-FA14-ABF4-2B1C-26768F2397EB">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SUBSCRIPTION</sourceObjSchema>
+<sourceObjName>SUBSCRIPTION_TYPE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTHLY_PRICE" id="903C15EB-920B-F9F6-EC96-351A89479C0F">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SUBSCRIPTION</sourceObjSchema>
+<sourceObjName>MONTHLY_PRICE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="834D172E-0336-7E09-B531-71B9F2F14B25">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SUBSCRIPTION</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERVAL_TIME" id="05CD67E3-B236-8A71-DB11-40B8099BFF05">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SUBSCRIPTION</sourceObjSchema>
+<sourceObjName>INTERVAL_TIME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6949A3EE-D86E-CD9A-4F86-AFEDF53CD968" name="SUBSCRIPTION_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SUBSCRIPTION_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3624E4B-FA14-ABF4-2B1C-26768F2397EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14024AD9-E85D-9F79-80F8-FE292A528FEF" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="SUBSCRIPTION_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SUBSCRIPTION_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3624E4B-FA14-ABF4-2B1C-26768F2397EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

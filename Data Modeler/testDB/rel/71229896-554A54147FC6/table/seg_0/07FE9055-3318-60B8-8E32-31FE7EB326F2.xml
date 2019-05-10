@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07FE9055-3318-60B8-8E32-31FE7EB326F2" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="STATIONREADING">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATIONREADING</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="READING_ID" id="A01391A6-898D-F43E-1938-A7904D8D04CF">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>READING_ID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,16,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>STATIONREADING_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>STATIONREADING_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="STATIONID" id="FC9D7BAD-E23D-5654-DEBF-AC5DC6FD126F">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>STATIONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCF77B8E-D25B-2336-37EF-6E99A65F0C9F" referredColumn="C75C5BD7-86DC-9582-5D55-9D66DC361200"/>
+</associations>
+</Column>
+<Column name="READINGLOCATION" id="B0BF0109-BDF8-AE6C-8F5A-4E3FE1981B32">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>READINGLOCATION</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="READING_DATE" id="B5F4498F-CB4F-DE55-C8D9-EECD66AE08C7">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>READING_DATE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPERATURE" id="C9ADCFA3-25D1-D994-6090-616807852CD0">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>TEMPERATURE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AIR_PRESSURE" id="EDD62E1F-E1B2-15AA-CC47-A173529C7CE8">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>AIR_PRESSURE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMBIENT_LIGHT" id="C8595D5F-D4FF-1169-19CB-3B51A6577A6D">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>AMBIENT_LIGHT</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUMIDITY" id="9AAA92FF-78C1-B9D8-C0B5-9333CDA1A8EF">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>HUMIDITY</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTITUDE" id="741E89E3-4D5F-8EA0-402D-F1A349C04F4F">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>STATIONREADING</sourceObjSchema>
+<sourceObjName>ALTITUDE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D305EFB1-4404-B277-90B9-3C0B2060F009" name="STATIONREADING_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATIONREADING_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01391A6-898D-F43E-1938-A7904D8D04CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="581F743D-7199-71E2-9F69-610C89FD9C8C" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="STATIONREADING_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>STATIONREADING_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01391A6-898D-F43E-1938-A7904D8D04CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DA95AC1-C61B-FBD8-361A-359B910BD8EC" name="READING_FK">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9D7BAD-E23D-5654-DEBF-AC5DC6FD126F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

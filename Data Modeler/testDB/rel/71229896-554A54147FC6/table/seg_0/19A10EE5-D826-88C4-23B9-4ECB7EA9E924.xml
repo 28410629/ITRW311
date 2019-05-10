@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A10EE5-D826-88C4-23B9-4ECB7EA9E924" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="REPAIRLOG">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>REPAIRLOG</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPAIRID" id="7BB9389C-25A3-DF6C-9C1E-A492A60DA178">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>REPAIRLOG</sourceObjSchema>
+<sourceObjName>REPAIRID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>REPAIRLOG_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>REPAIRLOG_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="PERSONID" id="6F7552F1-22DE-C6C0-1DBF-F4F658EECD1A">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>REPAIRLOG</sourceObjSchema>
+<sourceObjName>PERSONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E0E3FFE-E3BC-0C3A-C2CD-A325930D485D" referredColumn="D6ABE2BF-A0EF-CD5D-F4DF-55A819171828"/>
+</associations>
+</Column>
+<Column name="STATIONID" id="D2FB1940-15FF-4FE8-7801-83DB74CE9EF8">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>REPAIRLOG</sourceObjSchema>
+<sourceObjName>STATIONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DBFADC4-471E-EA25-4665-A5FBD950186F" referredColumn="C75C5BD7-86DC-9582-5D55-9D66DC361200"/>
+</associations>
+</Column>
+<Column name="DATE_OF" id="B4B283F1-7421-E6D6-8135-B076A4819787">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>REPAIRLOG</sourceObjSchema>
+<sourceObjName>DATE_OF</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="EEBC2104-4299-DEE8-03FB-9F92124499A8">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>REPAIRLOG</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AD4BEB3-DE75-A2C6-FEC7-8E70F661F9F6" name="REPAIRLOG_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>REPAIRLOG_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB9389C-25A3-DF6C-9C1E-A492A60DA178"/>
+<colUsage columnID="6F7552F1-22DE-C6C0-1DBF-F4F658EECD1A"/>
+<colUsage columnID="D2FB1940-15FF-4FE8-7801-83DB74CE9EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="371FFB48-19CD-E045-BF24-577675733F2A" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="REPAIRLOG_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>REPAIRLOG_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB9389C-25A3-DF6C-9C1E-A492A60DA178"/>
+<colUsage columnID="6F7552F1-22DE-C6C0-1DBF-F4F658EECD1A"/>
+<colUsage columnID="D2FB1940-15FF-4FE8-7801-83DB74CE9EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="436BCA11-63D2-D3D6-5199-D79266E6C410" name="REPAIR_FK_STATION">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2FB1940-15FF-4FE8-7801-83DB74CE9EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A85E195-5B7E-8BF5-A8CA-7E551F34B13B" name="REPAIR_FK_TECH">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F7552F1-22DE-C6C0-1DBF-F4F658EECD1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

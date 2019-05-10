@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E60566D-97D4-37BE-101F-54B9011707F0" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="FORECAST">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>FORECAST</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FORECAST_ID" id="BA61CFF3-7B7C-3DF7-6A06-19557D16F4D6">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>FORECAST_ID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,16,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FORECAST_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>FORECAST_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="FORECASTDATE" id="8D3DD23B-E800-CB7A-0013-6CCA8204FF55">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>FORECASTDATE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATIONID" id="A0B9A4A1-C762-ED63-F94B-A85FB3E04A94">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>LOCATIONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9078E699-4F26-787E-908B-01836C90FCDD" referredColumn="53CD8CF7-8CFE-8D3C-D00A-DCB6403DD7C4"/>
+</associations>
+</Column>
+<Column name="TEMPERATURE" id="148894B3-464E-0503-9D1A-815C5BC76329">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>TEMPERATURE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AIR_PRESSURE" id="55E306AA-5670-D5E9-02C6-C6211320D437">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>AIR_PRESSURE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUMIDITY" id="ED87C937-8876-9BA1-ACD2-B73505C4E323">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>HUMIDITY</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMBIENT_LIGHT" id="63C00B1C-33E3-01E0-45FF-DE92EB8796DB">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>FORECAST</sourceObjSchema>
+<sourceObjName>AMBIENT_LIGHT</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A812801-C09A-BC7B-4429-7738F12105F9" name="FORECAST_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>FORECAST_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA61CFF3-7B7C-3DF7-6A06-19557D16F4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8475BE7C-AA7A-D369-66C0-0AB3258206B6" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="FORECAST_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>FORECAST_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA61CFF3-7B7C-3DF7-6A06-19557D16F4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DAB2150-7D18-B993-29F4-89D62DCBE1EA" name="FORECAST_FK">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B9A4A1-C762-ED63-F94B-A85FB3E04A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

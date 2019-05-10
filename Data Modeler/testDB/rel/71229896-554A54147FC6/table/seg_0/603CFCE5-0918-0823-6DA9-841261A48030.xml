@@ -1,0 +1,307 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="603CFCE5-0918-0823-6DA9-841261A48030" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="PERSON">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONID" id="7A87AC59-29A6-7B4F-687C-973AB3989754">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PERSON_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PERSON_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="IDNUMBER" id="21582A9A-7F34-F38B-205E-A09E3641FC31">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>IDNUMBER</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="3390BD2A-0A99-EEE6-4FCD-12D2E52757E9">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>FIRSTNAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="A5F3EC52-0292-7B07-3CCD-46EA495585FB">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>LASTNAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONENUMBER" id="5AAC24D0-7DA7-D91C-6A42-D7FA61F99DD6">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHONENUMBER</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="527CA123-F29D-24EF-F4DD-2B1FE5E2B10F">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONTYPE" id="E274A62B-EF47-319A-D866-BBE49AD8B6D5">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSONTYPE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<constraintName>PERSON_CHECK_C_OR_E</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;E&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="85141979-B9A7-ADC3-FEE4-0097E9B8113B">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="C19F0451-53C0-E0DB-CE88-50887D96A78E">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVE_USER" id="0C306BAA-7575-F793-9FD0-AEE4AE0FC931">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>ACTIVE_USER</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>1 --1 yes, 0 no</defaultValue>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE6D08C7-7CA5-D782-CFCB-9583FC6DA0A2" name="PERSON_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A87AC59-29A6-7B4F-687C-973AB3989754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55337BFB-A801-C0FE-8E5C-552A2D793602" name="EMAIL_UK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>EMAIL_UK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527CA123-F29D-24EF-F4DD-2B1FE5E2B10F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0450F5B4-C8B5-67F6-3B52-5BD8EA2DE345" name="UNIQ_ID_NUM">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_ID_NUM</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21582A9A-7F34-F38B-205E-A09E3641FC31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C65D5C37-5B4A-DF70-F9B3-A84522206B4B" name="UNIQ_PERSON_TYPE">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_PERSON_TYPE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A87AC59-29A6-7B4F-687C-973AB3989754"/>
+<colUsage columnID="E274A62B-EF47-319A-D866-BBE49AD8B6D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17920B93-906C-02ED-33D3-CDC951F3D86A" name="UNIQ_USERNAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_USERNAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85141979-B9A7-ADC3-FEE4-0097E9B8113B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B8411D8-4D9C-DBC4-7831-744E4FAEB6D5" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="EMAIL_UK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>EMAIL_UK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527CA123-F29D-24EF-F4DD-2B1FE5E2B10F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E74D7ACD-1C82-1D8F-DABE-115970E04547" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="PERSON_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>PERSON_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A87AC59-29A6-7B4F-687C-973AB3989754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E1E38CE-7DE2-61E8-6AF4-4A32C94D4FBC" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="UNIQ_ID_NUM">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_ID_NUM</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21582A9A-7F34-F38B-205E-A09E3641FC31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DA2C027-9725-D45C-1B32-C98689643396" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="UNIQ_PERSON_TYPE">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_PERSON_TYPE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A87AC59-29A6-7B4F-687C-973AB3989754"/>
+<colUsage columnID="E274A62B-EF47-319A-D866-BBE49AD8B6D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB558316-5654-3D47-DC63-DD188648A379" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="UNIQ_USERNAME">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>UNIQ_USERNAME</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85141979-B9A7-ADC3-FEE4-0097E9B8113B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

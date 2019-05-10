@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4884A310-F839-6542-22E1-8F0B5A69AC72" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="SALARY">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALARYID" id="D1398988-6146-7E48-D2A5-2680B7FDB92B">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SALARY</sourceObjSchema>
+<sourceObjName>SALARYID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SALARY_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SALARY_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="PERSONID" id="43EF73F2-D67C-17F6-161E-5FD445F1AAC7">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SALARY</sourceObjSchema>
+<sourceObjName>PERSONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4D00F9D-D48C-8808-DFED-E24ABA6460DC" referredColumn="3D444A04-24FA-F374-E6AA-8AC07C21109C"/>
+</associations>
+</Column>
+<Column name="AMOUNT" id="CDA85668-EC0B-CF60-205E-35D479723425">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SALARY</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEPAID" id="A8470FFD-905F-2347-FE89-AF32BA1DA28E">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>SALARY</sourceObjSchema>
+<sourceObjName>DATEPAID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2FC7100-C1F8-575C-48E1-32526F4A2060" name="SALARY_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SALARY_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1398988-6146-7E48-D2A5-2680B7FDB92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A829B912-722B-F532-7A49-7344914C4FC7" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="SALARY_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>SALARY_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1398988-6146-7E48-D2A5-2680B7FDB92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC7A988B-98A4-591A-7246-A9719B95F130" name="SALARY_FK">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43EF73F2-D67C-17F6-161E-5FD445F1AAC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

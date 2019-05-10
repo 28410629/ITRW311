@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="500E61F4-B183-629A-065E-008E9580079F" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="TECHNICIAN">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>TECHNICIAN</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONID" id="D6ABE2BF-A0EF-CD5D-F4DF-55A819171828">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>TECHNICIAN</sourceObjSchema>
+<sourceObjName>PERSONID</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A3B9D50-39EE-2AF8-A189-7BDD112D790E" referredColumn="3D444A04-24FA-F374-E6AA-8AC07C21109C"/>
+</associations>
+</Column>
+<Column name="HARDWARE_YES" id="0BFAE806-2B6D-7B1D-31CC-E8372F28DE3E">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>TECHNICIAN</sourceObjSchema>
+<sourceObjName>HARDWARE_YES</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOFTWARE_YES" id="D7AC2F83-E27F-F942-BB5B-883C565599AB">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>TECHNICIAN</sourceObjSchema>
+<sourceObjName>SOFTWARE_YES</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITIONTYPE" id="20167534-C43C-123C-424A-CA951C9D32A1">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>TECHNICIAN</sourceObjSchema>
+<sourceObjName>POSITIONTYPE</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;T&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A3B9D50-39EE-2AF8-A189-7BDD112D790E" referredColumn="CC06340E-24D7-C4A5-BF02-D72A47356DCB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BE0071E-A6AC-1706-97E4-05FCDE4A3FED" name="TECHNICIAN_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>TECHNICIAN_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6ABE2BF-A0EF-CD5D-F4DF-55A819171828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CB1250F-DA1A-F1E0-1146-30BB107EEF2B" schemaObject="06F01A99-A511-6603-9D38-8C774CE4E093" name="TECHNICIAN_PK">
+<sourceConnName>ANCHORMEN</sourceConnName>
+<sourceObjSchema>BATMAN</sourceObjSchema>
+<sourceObjName>TECHNICIAN_PK</sourceObjName>
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:38:59 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6ABE2BF-A0EF-CD5D-F4DF-55A819171828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85E4568B-51D0-328B-4C1D-DF4A84E0DC78" name="EMPL_ISA_TECH">
+<createdBy>morne</createdBy>
+<createdTime>2019-05-10 06:39:00 UTC</createdTime>
+<ownerDesignName>testDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6ABE2BF-A0EF-CD5D-F4DF-55A819171828"/>
+<colUsage columnID="20167534-C43C-123C-424A-CA951C9D32A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
